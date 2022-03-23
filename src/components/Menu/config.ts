@@ -9,16 +9,7 @@ const config: MenuEntry[] = [
   {
     label: 'Trade',
     icon: 'TradeIcon',
-    items: [
-      {
-        label: '$COW',
-        href: 'https://pancakeswap.finance/swap?outputCurrency=0x8b6fa031c7d2e60fbfe4e663ec1b8f37df1ba483',
-      },
-      {
-        label: '$MILK',
-        href: 'https://pancakeswap.finance/swap?outputCurrency=0xe5bd6c5b1c2df8f499847a545838c09e45f4a262&inputCurrency=0x8b6fa031c7d2e60fbfe4e663ec1b8f37df1ba483',
-      },
-    ],
+    href: 'https://pancakeswap.finance/swap?outputCurrency=0xE0475D3494EF07ac52530De352824c6353E0C257&inputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
   },
 
   {

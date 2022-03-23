@@ -43,27 +43,27 @@ const config: MenuEntry[] = [
   //   href: '/farms',
   // },
 
-  {
-    label: 'NFT Blind Box',
-    // icon: 'NftIcon',
-    icon: 'TicketIcon',
-    href: '/blind-box'
-  },
+  // {
+  //   label: 'NFT Blind Box',
+  //   // icon: 'NftIcon',
+  //   icon: 'TicketIcon',
+  //   href: '/blind-box'
+  // },
 
-  {
-    label: 'NFT Staking',
-    icon: 'TicketIcon',
-    items: [
-      {
-        label: 'HappyCows',
-        href: '/stakes/1',
-      },
-      {
-        label: 'Genesis',
-        href: '/stakes/2',
-      }
-    ]
-  },
+  // {
+  //   label: 'NFT Staking',
+  //   icon: 'TicketIcon',
+  //   items: [
+  //     {
+  //       label: 'HappyCows',
+  //       href: '/stakes/1',
+  //     },
+  //     {
+  //       label: 'Genesis',
+  //       href: '/stakes/2',
+  //     }
+  //   ]
+  // },
   // {
   //   label: 'Milk Bar',
   //   icon: 'PoolIcon',
@@ -86,18 +86,18 @@ const config: MenuEntry[] = [
   //   icon: 'NftIcon',
   //   href: '/nft',
   // },
-  {
-    label: 'NFT Market',
-    // icon: 'NftIcon',
-    icon: 'TicketIcon',
-    href: '/nft-market'
-  },
-  {
-    label: 'My NFTs',
-    // icon: 'NftIcon',
-    icon: 'TicketIcon',
-    href: '/myNFTs'
-  },
+  // {
+  //   label: 'NFT Market',
+  //   // icon: 'NftIcon',
+  //   icon: 'TicketIcon',
+  //   href: '/nft-market'
+  // },
+  // {
+  //   label: 'My NFTs',
+  //   // icon: 'NftIcon',
+  //   icon: 'TicketIcon',
+  //   href: '/myNFTs'
+  // },
   
   {
     label: 'Info',

@@ -9,7 +9,6 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/cow/1-home.png');
   background-repeat: no-repeat;
   background-position: top center;
   justify-content: center;
@@ -22,7 +21,6 @@ const Hero = styled.div`
  
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/cow/2milkgenerator.png'), url('/images/cow/2bottle.png'), url('/images/cow/2cowdrinkmilk.png');
     background-position: left center, center bottom, right center;
     height: 300px, 185px, 185px;  
     width:  300px, 185px, 185px;
@@ -62,7 +60,6 @@ const Home: React.FC = () => {
   return (
     <Page
       style={{
-        backgroundImage: isDark ? `url(/images/cow/home-backgrounddark.png)` : `url(/images/cow/home-backgroundlight.png)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',        
@@ -70,14 +67,14 @@ const Home: React.FC = () => {
     >
       <Hero>
         <Heading as="h1" style={{fontSize: '3.5vw'}}>
-        CashCow Protocol
-        </Heading>        
-        <Text style={{fontSize: '1vw'}}>Earn MILK By Simply Staking Your COW</Text>
+        Falopa Finance
+        </Heading>
+        <Text style={{fontSize: '1vw'}}>Earn FALOPA!</Text>
       </Hero>
       <div>
         <Cards>
           <FarmStakingCard />
-          <TwitterCard />
+          {/* <TwitterCard /> */}
           <CakeStats />
           <TotalValueLockedCard />
         </Cards>

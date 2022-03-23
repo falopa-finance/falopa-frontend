@@ -76,12 +76,12 @@ const FarmedStakingCard = () => {
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
         <Block>
-          <Label>{TranslateString(544, 'MILK to Harvest')}</Label>
+          <Label>FALOPA to Harvest</Label>
           <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'MILK in Wallet')}</Label>
+          <Label>FALOPA in Wallet</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(eggPrice * cakeBalance).toFixed(2)}</Label>
         </Block>

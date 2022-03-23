@@ -5008,9 +5008,9 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-"cashcow-uikit@https://github.com/topospec/falopa-uikit":
+"cashcow-uikit@https://github.com/falopa-finance/falopa-uikit":
   version "0.10.2"
-  resolved "https://github.com/topospec/falopa-uikit#487b8171d2cee9bfedf46d170360dff579c1eba6"
+  resolved "https://github.com/falopa-finance/falopa-uikit#18ac90840e10c7ee2a22a3a5a61ff9c7c981be86"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

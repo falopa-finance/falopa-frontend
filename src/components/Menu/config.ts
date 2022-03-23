@@ -20,10 +20,10 @@ const config: MenuEntry[] = [
         label: 'Farms',
         href: '/farms',
       },
-      {
-        label: 'Milk Bar',
-        href: '/milkbar',
-      },
+    //   {
+    //     label: 'Milk Bar',
+    //     href: '/milkbar',
+    //   },
     ],
   },
 
@@ -95,12 +95,8 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'Github',
-        href: 'https://github.com/CashCowProject',
-      },
-      {
-        label: 'Whitepaper',
-        href: 'https://cashcowprotocol.gitbook.io/cashcow/',
+        label: 'DexGuru',
+        href: 'https://dex.guru/token/0xe0475d3494ef07ac52530de352824c6353e0c257-bsc',
       },
     ],
   },

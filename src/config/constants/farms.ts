@@ -29,7 +29,7 @@ const farms: FarmConfig[] = [
       97: '0xc6231bfbc66ab4b9dfd4ed8966f119d41c9eeb45', // MILK-BUSD LP
       56: '0xD015cC0c24f1fefECcAabffeD3794563A57Eba08', // MILK-BUSD LP
     },
-    tokenSymbol: 'FALOPA-BUSD',
+    tokenSymbol: 'MILK-BUSD',
     tokenAddresses: {
       97: '0x3eFA66aB2b1690e9BE8e82784EDfF2cF2dc150e0', // MILK
       56: '0xE0475D3494EF07ac52530De352824c6353E0C257', // MILK

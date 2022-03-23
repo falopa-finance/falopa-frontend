@@ -95,7 +95,6 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   return (
     <Page
       style={{
-        backgroundImage: isDark ? `url(/images/cow/home-backgrounddark.png)` : `url(/images/cow/home-backgroundlight.png)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -103,15 +102,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
     >
       <Heading as="h1" size="lg" color="primary" mb="25px" style={{ textAlign: 'center' }}>
         {tokenMode
-          ? TranslateString(10002, 'Stake tokens to earn MILK')
-          : TranslateString(320, 'Stake LP tokens to earn MILK')}
-      </Heading>
-      <Heading as="h2" color="secondary" mb="12px" style={{ textAlign: 'center' }}>
-        REMEMBER $COW Token has a 10% transaction fee that affects both deposits and withdrawals
+          ? <>Stake your FALOPA!</>
+          : <>Stake your FALOPA BUSD </>}
       </Heading>
 
-      <Heading as="h4" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        All deposit fees will be used for Milk Buybacks and Burns
+      <Heading as="h4" color="primary" mb="50px" style={{ textAlign: 'center' }}>
+        All deposit fees will be used for adding liquidity to $FALOPA
       </Heading>
 
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
